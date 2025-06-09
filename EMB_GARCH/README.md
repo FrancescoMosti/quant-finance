@@ -48,10 +48,5 @@ Only univariate models are tested – DCC-GARCH or multivariate HMMs could impro
 Incorporating macro factors or sentiment data may enhance explanatory power.\
 Deep learning models (e.g., LSTMs) could be considered for non-linear sequential modeling, with sufficient data and training capacity.
 
-### Clone the repository and install dependencies 
-git clone https://github.com/FrancescoMosti/timeseries-models/EMB_GARCH.git
-cd timeseries-models/EMB_GARCH
-pip install -r requirements.txt
-
 ## Author:
 Francesco Mosti
