@@ -1,3 +1,3 @@
 # timeseries-models
 
-Repository of projects related to volatility modelling.
+Repository of projects related to time series modelling.
