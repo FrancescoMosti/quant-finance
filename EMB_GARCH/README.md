@@ -53,6 +53,29 @@ EMB_GARCH/
 ├── requirements.txt           # Python dependencies
 └── README.md                  # This file
 ```
+## How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/FrancescoMosti/timeseries-models.git
+cd timeseries-models/EMB_GARCH
+```
+
+2. Create a virtual environment (optional but recommended):
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+```
+
+3. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Launch the main notebook:
+```bash
+jupyter notebook VolaFitting_GARCH.ipynb
+```
 
 ## Limitations and Future Work:
 HMM assumes Gaussian emissions – future work could extend to Bayesian HMMs with t-distributions.\
@@ -62,3 +85,5 @@ Deep learning models (e.g., LSTMs) could be considered for non-linear sequential
 
 ## Author:
 Francesco Mosti
+francesco.mosti@yahoo.com
+
