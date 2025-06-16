@@ -35,12 +35,24 @@ EGARCH did not improve results in this setting despite modeling asymmetries.\
 HMMs successfully detected regime switches, with high persistence in low-volatility states.\
 Rolling correlations with market indices (e.g., VIX, TNX) revealed weak and unstable linear relationships, highlighting the need for regime-based or nonlinear approaches.
 
-## Structure:
-- VolaFitting_GARCH.ipynb: main analysis notebook (GARCH, forecast evaluation, HMM)
-- utils/: helper functions for plotting, rolling metrics, volatility computation
-- requirements.txt: required packages in python
-- data/: holdings data and downloadable ETF metadata
-- README.md: project overview and documentation
+## Project Structure
+
+```
+EMB_GARCH/
+│
+├── data/                      # Holdings data and loadable metadata
+│   ├── EMB_holdings_clean.csv
+│
+├── utils/                     # Utility functions used across the project
+│   ├── data_utils.py
+│   ├── hmm_utils.py
+│   ├── model_utils.py
+│   ├── plotting_utils.py
+│
+├── VolaFitting_GARCH.ipynb    # Main notebook with estimation, plots, and evaluation
+├── requirements.txt           # Python dependencies
+└── README.md                  # This file
+```
 
 ## Limitations and Future Work:
 HMM assumes Gaussian emissions – future work could extend to Bayesian HMMs with t-distributions.\
