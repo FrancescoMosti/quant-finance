@@ -1,5 +1,7 @@
 # Markov Chains in Monetary Policy Modelling
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FrancescoMosti/timeseries-models/blob/main/MarkovChains_MonetaryPolicy/MyMC_MonetaryPolicy.ipynb)
+
 This project applies Markov Chains to replicate and interpret the decision-making process of the U.S. Federal Reserve (FED) using historical macroeconomic data. The goal is to classify and model monetary policy regimes—Dovish, Neutral, Hawkish—based on observable indicators, and to analyze their transitions through a Markov process.
 
 ---
@@ -25,7 +27,7 @@ For each configuration, we:
 ```
 MarkovChains_MonetaryPolicy/
 │
-├── data/                             # Contains all macroeconomic Excel datasets
+├── data/                            # Contains all macroeconomic Excel datasets
 │   ├── FEDFUNDS.xlsx
 │   ├── UNRATE.xlsx
 │   ├── CPIAUCSL_PC1.xlsx
@@ -56,7 +58,7 @@ pip install pandas numpy matplotlib openpyxl
 jupyter notebook MyMC_MonetaryPolicy.ipynb
 ```
 
-No further configuration is required if the data files are present in the `data/` subfolder.
+Alternatively, click the badge at the top of this file to run it directly on Google Colab.
 
 ---
 
@@ -82,5 +84,5 @@ No further configuration is required if the data files are present in the `data/
 
 Francesco Mosti  
 Master in Data Science and Statistical Learning (MD2SL)  
-University of Florence \& IMT Lucca
+University of Florence \& IMT Lucca 
 2024/2025 Edition
