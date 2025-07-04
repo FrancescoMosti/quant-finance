@@ -1,6 +1,6 @@
-# Time Series Models
+# Quant Finance
 
-This repository collects applied projects focused on time series modelling, with particular attention to economic and financial data.
+This repository collects applied projects focused on quantitative finance applications like time series modelling, algorithm implementation or even macroeconomics.
 
 ---
 
