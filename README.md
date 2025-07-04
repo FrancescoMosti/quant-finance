@@ -21,7 +21,7 @@ To explore or run the notebooks:
 1. Clone the repository:
 ```bash
 git clone https://github.com/FrancescoMosti/timeseries-models.git
-cd timeseries-models/
+cd quant-finance/
 ```
 
 2. Open any project folder and run the notebooks using Jupyter or your preferred environment.
